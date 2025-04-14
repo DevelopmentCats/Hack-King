@@ -19,3 +19,6 @@ cmd = "cd server && npm start"
 [environment]
 NODE_ENV = "production"
 NODE_VERSION = "20"
+
+[build.env]
+DATABASE_URL = "postgresql://username:password@your-db-host:5432/hackking"
